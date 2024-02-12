@@ -41,16 +41,15 @@ function App() {
     <div className="main">
       <div className="main-container">
         <div className="main-buttons">
-          <button onClick={handleLowerCase}><i class="fa-solid fa-plus"></i>&nbsp;&nbsp;Lower case</button>
-          <button onClick={handleUpperCase}><i class="fa-solid fa-plus"></i>&nbsp;&nbsp;UPPER CASE</button>
-          <button onClick={handleCapitalizedCase}><i class="fa-solid fa-plus"></i>&nbsp;&nbsp;Capitalized Case</button>
-          <button onClick={handleSentenceCase}><i class="fa-solid fa-plus"></i>&nbsp;&nbsp;Sentence case</button>
-          <button onClick={handleCopyToClipboard}><i class="fa-solid fa-copy"></i>&nbsp;&nbsp;Copy</button>
-          <button onClick={handleClear}><i class="fa-solid fa-trash"></i>&nbsp;&nbsp;Clear</button>
+          <button onClick={handleLowerCase}><i className="fa-solid fa-check"></i>&nbsp;&nbsp;Lower case</button>
+          <button onClick={handleUpperCase}><i className="fa-solid fa-check"></i>&nbsp;&nbsp;UPPER CASE</button>
+          <button onClick={handleCapitalizedCase}><i className="fa-solid fa-check"></i>&nbsp;&nbsp;Capitalized Case</button>
+          <button onClick={handleSentenceCase}><i className="fa-solid fa-check"></i>&nbsp;&nbsp;Sentence case</button>
+          <button onClick={handleCopyToClipboard}><i className="fa-solid fa-copy"></i>&nbsp;&nbsp;Copy</button>
+          <button onClick={handleClear}><i className="fa-solid fa-trash"></i>&nbsp;&nbsp;Clear</button>
         </div>
         <div className="main-text">
-          {/* <p className="main-text-message">Convert your text to uppercase, lowercase, capitalized or sentence case</p> */}
-            <textarea value={inputText} onChange={handleChange} className="main-textarea" placeholder="Enter your text here..." spellcheck="true"></textarea>
+            <textarea value={inputText} onChange={handleChange} className="main-textarea" placeholder="Enter your text here..." spellCheck="true"></textarea>
         </div>
       </div>
     </div>
