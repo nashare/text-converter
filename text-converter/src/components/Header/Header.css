@@ -1,0 +1,27 @@
+.header-text {
+    margin: auto auto auto 20px;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+.header {
+    background-color: #1a1450;
+    height: 7vh;
+    display: flex;
+    border-bottom: #375181 1px solid;
+}
+
+.header-link {
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    .header-text {
+        color: white;
+        padding: 10px;
+        letter-spacing: normal;
+        margin: auto auto auto auto;
+    }
+}
