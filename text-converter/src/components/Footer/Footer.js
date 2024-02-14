@@ -12,8 +12,12 @@ export const Footer = () => {
                 </div>
                 <nav className="footer-navigation">
                     <ul className="footer-navigation-list">
-                        <li className="footer-navigation-link">Our blog</li>
-                        <li className="footer-navigation-link">Capital letter to lowercase</li>
+                        <Link to="/blog" className="footer-react-link">
+                            <li className="footer-navigation-link">Our blog</li>
+                        </Link>
+                        <Link to="/blog/upper-case-to-lower-case-css-rules" className="footer-react-link">
+                            <li className="footer-navigation-link">Capital letter to lowercase in CSS</li>
+                        </Link>
                         <li className="footer-navigation-link">Convert capital to lowercase</li>
                         <li className="footer-navigation-link">Convert to lower case</li>
                         <li className="footer-navigation-link">Convert upper case to lower case</li>

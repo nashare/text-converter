@@ -4,6 +4,8 @@ import { Footer } from './components/Footer/Footer';
 import { Header } from './components/Header/Header';
 import { MainPage } from './pages/MainPage/MainPage';
 import { BlogPage } from './pages/BlogPage/BlogPage';
+import { CSSPage } from './pages/CSSPage/CSSPage';
+
 
 function App() {
 
@@ -13,6 +15,7 @@ function App() {
     <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog/upper-case-to-lower-case-css-rules" element={<CSSPage />} />
     </Routes>
     <Footer />
     </>

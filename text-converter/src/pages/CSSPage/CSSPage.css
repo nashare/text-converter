@@ -1,0 +1,20 @@
+.article-container {
+    background-color: white;
+    width: 60%;
+    padding: 60px;
+}
+
+.article-header {
+    color: #6768fb;
+    font-size: 22px;
+}
+
+.article-text {
+    line-height: 1.5;
+}
+
+.article-code {
+    padding: 2px;
+    background-color: rgb(226, 224, 224);
+    border: 0.5px solid grey;
+}
