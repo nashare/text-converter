@@ -10,7 +10,9 @@
     background-color: #1a1450;
     height: 7vh;
     display: flex;
+    justify-content: start;
     border-bottom: #375181 1px solid;
+    align-items: center;
 }
 
 .header-link {
@@ -23,5 +25,9 @@
         padding: 10px;
         letter-spacing: normal;
         margin: auto auto auto auto;
+    }
+
+    .header {
+        justify-content: center;
     }
 }
