@@ -15,18 +15,24 @@
 }
 
 .blog-header {
-    color: black;
+    color: rgb(65, 65, 65);
+    margin: 5px 0 0 0;
+    text-align: center;
 }
 
 .blog-text {
-    color: black;
-}
-
-.blog-read-more {
-    color: black;
-    text-decoration: underline;
+    color: rgb(65, 65, 65);
 }
 
 .blog-image {
     width: 100%;
+}
+
+.blog-date {
+    font-size: 14px;
+    color: grey;
+}
+
+.blog-post :hover {
+    text-decoration: underline;
 }

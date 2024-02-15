@@ -16,6 +16,7 @@ function App() {
         <Route path="/" element={<MainPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/upper-case-to-lower-case-css-rules" element={<CSSPage />} />
+        <Route path="/blog/convert-capital-to-lowercase-python" element={<CSSPage />} />
     </Routes>
     <Footer />
     </>

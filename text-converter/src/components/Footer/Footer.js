@@ -18,7 +18,9 @@ export const Footer = () => {
                         <Link to="/blog/upper-case-to-lower-case-css-rules" className="footer-react-link">
                             <li className="footer-navigation-link">Capital letter to lowercase in CSS</li>
                         </Link>
-                        <li className="footer-navigation-link">Convert capital to lowercase</li>
+                        <Link to="/blog/convert-capital-to-lowercase-python" className="footer-react-link">
+                            <li className="footer-navigation-link">Convert capital to lowercase in Python</li>
+                        </Link>
                         <li className="footer-navigation-link">Convert to lower case</li>
                         <li className="footer-navigation-link">Convert upper case to lower case</li>
                         <li className="footer-navigation-link">Lower case converter</li>
