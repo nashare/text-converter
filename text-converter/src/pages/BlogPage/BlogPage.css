@@ -4,3 +4,29 @@
     justify-content: center;
     height: 93vh;
 }
+
+.blog-container {
+    background-color: white;
+    width: 60%;
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.blog-header {
+    color: black;
+}
+
+.blog-text {
+    color: black;
+}
+
+.blog-read-more {
+    color: black;
+    text-decoration: underline;
+}
+
+.blog-image {
+    width: 100%;
+}

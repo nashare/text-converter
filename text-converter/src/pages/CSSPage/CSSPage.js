@@ -3,7 +3,7 @@ import './CSSPage.css';
 export const CSSPage = () => {
 
     return (
-        <div className="blog">
+        <div className="article">
             <div className="article-container">
                 <h2 className="article-header">CSS text-transform Property to Change Case</h2>
                 <br></br>
